@@ -1,0 +1,44 @@
+/*----------------------------------------------------------------------------*/
+sprite_sheet "platform" 512 x 256 margin 1
+
+img "platform.xcf.bz2"
+
+"platform 1" autosize * 1 with img
+  "platform"
+  "small planks"
+  "X right"
+  "X left"
+  "axle"
+  "ring 1"
+  "propeller 1"
+  ;
+
+"platform 2" autosize * 1 with img
+  "platform"
+  "small planks"
+  "X right"
+  "X left"
+  "axle"
+  "ring 2"
+  "propeller 2"
+  ;
+
+"platform 3" autosize * 1 with img
+  "platform"
+  "small planks"
+  "X right"
+  "X left"
+  "axle"
+  "ring 3"
+  "propeller 3"
+  ;
+
+"platform 4" autosize * 1 with img
+  "platform"
+  "small planks"
+  "X right"
+  "X left"
+  "axle"
+  "ring 2"
+  "propeller 4"
+  ;
