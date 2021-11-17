@@ -12,7 +12,6 @@ public class PlayerController : MonoBehaviour
     [SerializeField] Animator hurtAnimator;
     [SerializeField] Score scoreField;
     public GameOver GameOver;
-    [SerializeField] int spike=7;
 
 
 
@@ -32,11 +31,7 @@ public class PlayerController : MonoBehaviour
         PlayerMovement();
         hurtAnimator.SetFloat("y", playerRB.position.y);
         hurtAnimator.SetFloat("Speed", velocity);
-        if (playerRB.position.y >= spike)
-        {
-            GameOverScreen();
-            Destroy(gameObject);
-        }
+       
         
     }
 
